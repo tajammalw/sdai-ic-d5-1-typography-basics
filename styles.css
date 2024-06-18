@@ -1,0 +1,119 @@
+/* Base Styles for Headings */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Permanent Marker', cursive;
+    color: #f4f4f4;
+    margin-top: 0;
+    margin-bottom: 0.5em;
+}
+
+/* Base Styles for Paragraphs */
+p {
+    font-family: 'Patrick Hand', cursive;
+    color: #f4f4f4;
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 1em;
+}
+
+/* Text Alignment Utilities */
+.text-center {
+    text-align: center;
+}
+
+/* Navigation Styles */
+.nav {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.nav li {
+    margin-right: 1em;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #f4f4f4;
+    font-family: 'Patrick Hand', cursive;
+}
+
+/* Page Background */
+body {
+    background-color: #2d2d2d;
+    color: #f4f4f4;
+    font-family: 'Patrick Hand', cursive;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header,
+footer {
+    background-color: #1b1b1b;
+    padding: 1em 0;
+    width: 100%;
+}
+
+header h1 {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 2.5rem;
+    color: #f4f4f4;
+}
+
+main {
+    width: 80%;
+}
+
+.intro,
+.menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.menu {
+    margin-top: 2rem;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* Card Styles */
+.card {
+    padding: 1em;
+    margin: 1rem;
+    border: 1px solid #f4f4f4;
+    font-size: 1.3rem;
+    border-radius: 10px;
+    background-color: #3e3e3e;
+    color: #f4f4f4;
+    text-align: center;
+    display: inline-block;
+    max-width: 28%;
+}
+
+.card img {
+    max-width: 100%;
+    border-radius: 5px 5px 0 0;
+}
+
+.card h3 {
+    color: #e21;
+    font-family: 'Permanent Marker', cursive;
+}
+
+.card-number,
+.price {
+    font-weight: bold;
+}
