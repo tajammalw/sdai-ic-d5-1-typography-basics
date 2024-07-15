@@ -10,7 +10,7 @@ The instructor will demonstrate how to define and apply typography styles using 
     - [ ] **Task 1:** Apply base styles and a utility class.
         - Define base styles for headings and paragraphs in `styles.css`.
         - Create a utility class to add margin to elements, and use it to provide better spacing on the page (like creating extra space between the footer and the main content).
-        - 
+   
     - [ ] **Task 2:** Apply font styling.
         - Define a class for the main title in `styles.css`.
         - Apply the class to the main title in your HTML file.
