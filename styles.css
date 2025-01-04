@@ -1,3 +1,17 @@
+/* CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Variables */
+:root {
+    --primary-font: 'Permanent Marker', cursive;
+    --secondary-font: 'Patrick Hand', cursive;
+    --primary-color: #f4f4f4;
+}
+
 /* Base Styles for Headings */
 h1,
 h2,
@@ -5,16 +19,16 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'Permanent Marker', cursive;
-    color: #f4f4f4;
+    font-family: var(--primary-font);
+    color: var(--primary-color);
     margin-top: 0;
     margin-bottom: 0.5em;
 }
 
 /* Base Styles for Paragraphs */
 p {
-    font-family: 'Patrick Hand', cursive;
-    color: #f4f4f4;
+    font-family: var(--secondary-font);
+    color: var(--primary-color);
     font-size: 1rem;
     line-height: 1.6;
     margin-bottom: 1em;
